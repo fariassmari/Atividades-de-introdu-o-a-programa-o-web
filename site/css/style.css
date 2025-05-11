@@ -1,0 +1,152 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+body{
+  background-color: #18324e;
+  display: block;
+  margin: 8px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#main{ 
+  width: 960px;
+  margin: 50px auto;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.cover{
+  text-align: center;
+  line-height: 2rem;
+}
+
+.section {
+  background-color: #b1cbe7;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(41, 41, 41, 0.9);
+}
+
+.section h1 {
+  font-size: 26px;
+  color: rgba(0,0,0,.85);
+}
+
+.section h2 {
+  margin-bottom: 4px;
+  font-size: 19px;
+}
+
+.section h3 {
+  color: rgba(0,0,0,.7);
+  font-size: 17px;
+}
+
+h3{
+  display: block;
+  font-size: 1.17rem;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.section-cover{
+  text-align: center;
+  padding: 40px 20px;
+  width: 600px;
+  height: 100%;
+  line-height: 2.8rem;
+  border-radius: 1.8rem;
+}
+
+img{
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  border-radius: 100px;
+  box-shadow: #000;
+  width: 200px;
+  height: auto;
+  margin: auto;
+}
+
+.profile-detail table{
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+table{
+  border-collapse: separate;
+  display: table;
+  box-sizing: border-box;
+  text-indent: initial;
+  unicode-bidi: isolate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+.profile-detail .title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+}
+
+.profile-detail .title {
+  font-size: 1.5em;
+  width: 90%;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  unicode-bidi: isolate;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  unicode-bidi: isolate;
+}
+
+th {
+  font-weight: bold;
+  vertical-align: inherit;
+  display: table-cell;
+  text-align: -internal-center;
+  unicode-bidi: isolate;
+}
+
+td {
+  vertical-align: inherit;
+  display: table-cell;
+  unicode-bidi: isolate;
+  text-align: justify;
+}
+
+.button {
+  width: 100px;
+  margin: auto;
+  background-color: #18324e;
+  color: #fff;
+  height: 40px;
+  vertical-align: middle;
+  line-height: 40px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #3c7dc3;
+}
